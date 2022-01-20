@@ -1,0 +1,79 @@
+
+.choixStep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border-radius: 50%;
+}
+.choixStep svg{
+    transform: scale(1.5);
+}
+
+.paperStep{
+    border: 20px solid #5671F5;
+
+}
+.scissorsStep{
+    border: 20px solid #ECA724;
+
+}
+.rockStep{
+    border: 20px solid #DF405E;
+
+}
+
+.stepContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.rondNoir{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: rgba(0 , 0 , 0, 1);
+
+}
+
+.sousStep{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.stepContainer p{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.centreRond{
+    height: 90%;
+    display: flex;
+    align-items: center;
+}
+
+
+.resultat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultat p{
+    font-size: 20px;
+}
+
+.resultat button{
+    padding: 10px;
+    color: red;
+}
